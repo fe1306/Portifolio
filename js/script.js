@@ -5,8 +5,8 @@ function toggleMode() {
        const img = document.querySelector("#profile img"); 
 
        if (html.classList.contains("light")) { 
-              img.setAttribute("src", "./img/foto-sol.png"); 
+              img.setAttribute("src", "./foto-sol.png"); 
        }    else  {
-              img.setAttribute("src", "./img/foto-lua.jpg"); 
+              img.setAttribute("src", "./foto-lua.jpg"); 
        }
 }
